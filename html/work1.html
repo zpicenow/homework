@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拍拍</title>
+
+    <style>
+
+        .mypar {
+            padding-left: 20px;
+            background: aquamarine;
+        }
+
+        .serveRule {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: #0033FF;
+        }
+
+        a:hover {
+            color: #FF0000;
+        }
+
+        table {
+            font-size: 14px;
+            border: 1px solid #999999;
+            align: center;
+        }
+
+        td {
+            border: none;
+        }
+
+        input {
+            border: 1px solid #000000;
+        }
+
+        .section {
+            width: 1000px;
+
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .myButton {
+            background: url(../image/register_submit.gif);
+            height: 35px;
+            width: 130px;
+            color: #FFFFFF;
+            font-weight: bold;
+            border: 0;
+        }
+
+        .red_text {
+            color: red;
+        }
+
+    </style>
+    <script>
+    function myhref() {
+        alert("本协议为拍拍网交易条款\n我也不知道该写点什么。。。。就写这些乱七八糟的占个位\n本协议为拍拍网交易条款\n" +
+            "本协议为拍拍网交易条款\n本协议为拍拍网交易条款\n本协议为拍拍网交易条款\n本协议为拍拍网交易条款\n本协议为拍拍网交易条款\n");
+    }
+    </script>
+</head>
+<body>
+<center>
+    <div>
+        <img src="../image/head.jpg" alt="无连接">
+    </div>
+    <br>
+    <div>
+
+        <form>
+            <table style="width: 770px;height: 500px">
+                <tr>
+                    <td class="red_text">以下为必填项</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="mypar">请填写您的email地址:</p>
+                    </td>
+                    <td align="center" valign="middle">
+                        <input name="email地址" type="email" size="21"/>
+                    </td>
+                    <td>
+                        <p class="red_text">此项为必填项，请输入您的email地址</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="mypar">设置您在当当网的昵称:</p>
+                    </td>
+                    <td align="center" valign="middle">
+                        <input name="当当网昵称" type="text" size="21"/>
+                    </td>
+                    <td>
+                        <p class="red_text">此项为必填项，请输入您的昵称</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="mypar">设置密码:</p>
+                    </td>
+                    <td align="center" valign="middle">
+                        <input name="密码" type="password" size="21"/>
+                    </td>
+                    <td>
+                        <p class="red_text">此项为必填项，请输入您的密码</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="mypar">再次输入您设置的密码:</p>
+                    </td>
+                    <td align="center" valign="middle">
+                        <input name="密码2" type="password" size="21"/>
+                    </td>
+                    <td>
+                        <p class="red_text">此项为必填项，请再次输入您的密码</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td align="center" valign="middle" colspan="2">
+
+                        <input name="条款" type="checkbox" value=""> 我已阅读并同意《 <a class="serveRule" href="#" onclick="myhref()">当当网交易条款</a>》和《
+                        <a class="serveRule" href="#" onclick="myhref()">当当网用户使用条款</a>》
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="重&nbsp&nbsp置" class="myButton"/>
+                    </td>
+                    <td>
+                        <input type="submit" value="提&nbsp&nbsp交" class="myButton"/>
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+
+    <div>
+        <img src="../image/foot.jpg" alt="无连接" style="width: 770px">
+    </div>
+</center>
+
+</body>
+</html>
